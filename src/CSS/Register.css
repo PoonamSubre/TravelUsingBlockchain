@@ -1,0 +1,43 @@
+.registration-container {
+  width: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.registration-form .form-group {
+  margin-bottom: 20px;
+}
+
+.registration-form label {
+  display: block;
+  font-weight: bold;
+ text-align: left;
+}
+
+.registration-form .form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.registration-form .btn-primary {
+  width: 100%;
+}
+  
+.already-have-account {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.already-have-account a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.already-have-account a:hover {
+  text-decoration: underline;
+}

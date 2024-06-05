@@ -1,0 +1,25 @@
+.footer-bg-main {
+  background-color: #000814; /* Main footer background color */
+}
+
+.footer-bg-bottom {
+  background-color: #E6B800; /* Slightly darker for contrast */
+}
+
+/* Change the color of all SVG icons in the footer */
+.footer-svg-icon {
+  fill: #ff0000; /* Change the color to red */
+}
+
+/* Change the color of specific SVG icons */
+.location-icon {
+  fill: #00ff00; /* Change the color to green */
+}
+
+.email-icon {
+  fill: #0000ff; /* Change the color to blue */
+}
+
+.phone-icon {
+  fill: #ffff00; /* Change the color to yellow */
+}

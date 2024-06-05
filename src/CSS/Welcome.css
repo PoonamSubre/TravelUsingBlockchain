@@ -1,0 +1,36 @@
+/* Welcome.css */
+
+.text-container {
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .text-primary {
+    color: blue;
+   
+  }
+  
+  .text-orange {
+    color: orange;
+  }
+  
+  .text-black {
+    color: black;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  

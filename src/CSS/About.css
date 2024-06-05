@@ -1,0 +1,21 @@
+.bg-image {
+    background-image: url('https://images.unsplash.com/photo-1498354178607-a79df2916198?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');  /* Replace with the actual image URL */
+    background-size: cover;
+    background-position: center;
+    color: white;  /* Default text color */
+    height: 400px;
+    padding-top: 10px;
+  }
+
+
+  .bg-custom {
+    background-color: #FFF300;
+}
+
+.bg-customfeedback{
+  background-color: #001D3D;
+}
+
+.bg-custom3{
+  background-color: #FFD60A;
+}

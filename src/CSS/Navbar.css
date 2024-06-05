@@ -1,0 +1,70 @@
+/* Navbar.css */
+
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: #001D3D;
+  color: #FFC300;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 100px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.nav-links {
+  flex-grow: 0.75;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-links a {
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #FFC300;
+  font-size: 1.2rem;
+  font-weight: bold;
+  position: relative;
+}
+
+.nav-links .dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #FFC300;
+  min-width: 160px;
+  border: 1px solid #ccc;
+  z-index: 1;
+}
+
+.nav-links .dropdown-content a {
+  color: #001D3D;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.nav-links .dropdown:hover .dropdown-content {
+  display: block;
+}
